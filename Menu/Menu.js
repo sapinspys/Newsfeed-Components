@@ -1,6 +1,7 @@
-const toggleMenu = () => {
+const toggleMenu = (e) => {
   // Toggle the "menu--open" class on your menu refence.
-  menu.classList.toggle('menu--open');
+  $(".menu").animate({width:'toggle'},350); // STRETCH
+  e.stopPropagation();
 }
 
 // Start Here: Create a reference to the ".menu" class
