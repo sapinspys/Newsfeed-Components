@@ -29,6 +29,8 @@ In this project we are going to be building a news feed reader. The goal is to h
 
 * Now that we have our components built, add a few articles of your own to the HTML. Notice how our JavaScript code automatically selects the new articles and adds the styling and functionality we just built to them. This is the power of components. Write the code once and add as many components as you want all while maintaining the functionality we built!
 
+MVP COMPLETED!
+
 ### Stretch Goals:
 
 If you complete the main goals of the page let's play around with some cool animation libraries.
