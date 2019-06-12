@@ -14,3 +14,7 @@ menuButton.addEventListener('click', toggleMenu)
 $(document).click(function(){
   $(".menu").hide();
 });
+
+menu.addEventListener('click', event => {
+  event.preventDefault();
+})
